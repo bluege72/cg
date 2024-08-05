@@ -1,0 +1,19 @@
+{
+	"appName": "cluegod",
+	"description": "A plugin that helps with completing clues.",
+	"appUrl": "./index.html",
+	"configUrl": "./appconfig.json",
+	"iconUrl": "./icon.png",
+	"defaultWidth": 400,
+	"defaultHeight": 400,
+	"minWidth": 250,
+	"minHeight": 180,
+	"maxWidth": 1000,
+	"maxHeight": 1000,
+	"requestHandlers": [ ],
+	"activators": [
+		"regex:(Read|Open|Scan) (Clue scroll|Puzzle casket|Puzzle scroll box|Scroll box) \\((easy|medium|hard|elite|master)\\)",
+		"Open Puzzle box"
+	],
+	"permissions": "pixel,overlay"
+}
